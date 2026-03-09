@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda</title>
+    <link rel="stylesheet" href="../styles/Ferramentas.css" />
+  </head>
+
+  <body id="agenda">
+    <nav>
+      <ul>
+        <li><a href="agenda.html">AGENDA</a></li>
+        <li><a href="exames.html">EXAMES</a></li>
+        <li><a href="internacoes.html">INTERNAÇÕES</a></li>
+        <li><a href="../Index.html">VOLTAR</a></li>
+      </ul>
+    </nav>
+    <div id="ferrementaAgenda">
+      <form action="">
+        <div id="NomeMedico">
+          <input
+            type="text"
+            name="NomeMedico"
+            id=""
+            placeholder="Nome do Medico"
+          />
+        </div>
+        <div id="NomePaciente">
+            <input type="text" name="NamePaciente" id="" placeholder="Nome do Paciente">
+        </div>
+        <div id="data_hora">
+          <input type="datetime-local" nvame="" id="data_hora" />
+        </div>
+        <div id="Periodo">
+          <select name="Periodo" id="periodo">
+            <option value="1">Manhã</option>
+            <option value="2">Tarde</option>
+            <option value="3">Noite</option>
+          </select>
+        </div>
+        <div id="botao">
+          <input type="button" value="Salvar" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

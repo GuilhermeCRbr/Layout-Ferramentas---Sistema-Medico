@@ -1,0 +1,217 @@
+/*
+Barra onde Ficam as Ferrametas
+*/
+#agenda a[href="agenda.html"],
+#consulta a[href="consulta.html"],
+#exames a[href="exames.html"],
+#internacoes a[href="internacoes.html"],
+#receitas a[href="receitas.html"]{
+  background-color: aquamarine;
+  display: grid;
+  min-height: 107px;
+  width: min(100% , 400px) ;
+  border-radius: 25px 0 0 25px;
+  place-items: center;
+  place-content: center;
+  margin: 0;
+  color: black;
+}
+body {
+  margin: 0;
+  background-color: aquamarine;
+}
+nav {
+  float: left;
+  background-color: rgb(36, 152, 114);
+  display: grid;
+  min-height: 100vh;
+  width: min(60% , 400px) ;
+}
+nav ul {
+  margin: 0;
+  padding-bottom: 20px;
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+nav ul li{
+  display: flex;
+  min-height: 13vh;
+  place-items: center;
+  place-content: center;
+}
+nav ul:hover{
+  padding-left: 0;
+  margin-left: 0;
+}
+
+nav ul li:hover{
+  background-color: aquamarine;
+  display: grid;
+  min-height: 107px;
+  width: min(100% , 400px) ;
+  border-radius: 25px 0 0 25px; 
+  place-items: center;
+  place-content: center;
+  margin: 0;
+  color: #000;
+  box-shadow: -21px 12px 20px rgb(11, 104, 76);
+}
+
+nav ul a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/*
+Formularios das Ferrametas
+*/
+#ferrementaAgenda{
+  place-items: center;
+  margin-right: 0;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 30px;
+  float: left;
+  display: grid;
+  min-height:75vh;
+  min-width: 120vh ;
+  background-color: #fff;
+  box-shadow: 5px 10px 30px #5f5f5f;
+}
+
+#ferramentaConsulta{
+  place-items: center;
+  margin-right: 0;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 30px;
+  float: left;
+  display: grid;
+  min-height:75vh;
+  min-width: 120vh ;
+  background-color: #fff;
+  box-shadow: 5px 10px 30px #5f5f5f;
+}
+
+#ferrementaExames{
+  place-items: center;
+  margin-right: 0;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 30px;
+  float: left;
+  display: grid;
+  min-height:75vh;
+  min-width: 120vh ;
+  background-color: #fff;
+  box-shadow: 5px 10px 30px #5f5f5f;
+}
+
+#ferrementaIternacoes{
+  place-items: center;
+  margin-right: 0;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 30px;
+  float: left;
+  display: grid;
+  min-height:75vh;
+  min-width: 120vh ;
+  background-color: #fff;
+  box-shadow: 5px 10px 30px #5f5f5f;
+}
+
+#ferrementaReceita{
+  place-items: center;
+  margin-right: 0;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 30px;
+  float: left;
+  display: grid;
+  min-height:75vh;
+  min-width: 120vh ;
+  background-color: #fff;
+  box-shadow: 5px 10px 30px #5f5f5f;
+}
+
+#NomeMedico input{
+  min-width: 600px;
+  min-height: 60px;
+  background-color: rgb(36, 152, 114);
+  border-radius: 10px;
+  border: 0;
+}
+
+#NomePaciente input {
+  margin: 30px 0 30px 0;
+  min-width: 600px;
+  min-height: 60px;
+  background-color: rgb(36, 152, 114);
+  border-radius: 10px;
+  border: 0;
+
+}
+
+#data_hora input{
+  min-width: 100px;
+  min-height: 40px;
+  background-color: rgb(36, 152, 114);
+  border-radius: 10px;
+  border: 0;
+  color: #fff;
+}
+
+#Periodo select{
+  width: 100px;
+  height: 44px;
+  margin-top: 20px;
+  background-color: rgb(36, 152, 114);
+  border-radius: 10px;
+  border: 0;
+  color: #fff;
+}
+
+#botao input{
+  float: inline-end;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(36, 152, 114);
+  border-radius: 10px;
+  border: 0;
+  color: #fff;
+}
+
+#CaixaEscrita textarea{
+  min-width: 600px;
+  min-height: 70px;
+  background-color: rgb(36, 152, 114);
+  border-radius: 10px;
+  border: 0;
+}
+
+::placeholder {
+  color: #fff ;
+}
+
+p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#botao input:hover{
+  background-color: aquamarine;
+  color: black;
+  box-shadow: 2px 4px 10px rgb(124, 124, 124);
+}
+
+
+
+
+
+
+
+
+

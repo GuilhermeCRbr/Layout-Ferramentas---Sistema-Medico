@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(36, 152, 114);
+}
+
+#div1{
+    place-content: center;
+    place-items: center;
+    background-color: aquamarine;
+    min-width: 700px;
+    min-height: 400px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 27px rgb(19, 95, 70);
+    text-align: center;
+    
+}
+
+#body{
+    place-items: center;
+}
+
+form p{
+    font-size: 40px;
+    margin: 0;
+    font-weight: bold;
+}
+
+input{
+    color: #fff;
+    border-radius: 17px;
+    border: none;
+    background-color: rgb(19, 95, 70);
+    font-size: 20px;
+    margin-top: 30px;
+    width: 300px;
+    height: 90px;
+}
+
+input:hover{
+    color: #000000;
+    background-color:#94e5d5;
+    font-weight: bold;
+    box-shadow: 5px 5px 17px #0b6452;
+}
